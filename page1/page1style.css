@@ -92,6 +92,7 @@
 }
 .time_date{
     width: 20vw;
+    margin-left: 1vw;
 }
 
 /* log screen css */
@@ -121,7 +122,8 @@
     height: 2vh;
 }
 .mystyle .time_date{
-    width: 20vh;
+    width: 25vh;
+    margin-left: 1vh;
 }
 .mystyle *{
     font-size: 1.2vh;  
