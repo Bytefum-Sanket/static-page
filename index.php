@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="page1/index.html">Page 1</a>
-    <a href="page2/index.html">Page 2</a>
+    <a href="page1/">Page 1</a>
+    <a href="page2/">Page 2</a>
 </body>
 </html>
