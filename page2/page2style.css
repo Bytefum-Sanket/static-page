@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 2vw;
+}
+img{
+    width: 100%;
+}
+.image img{
+    height: 100vh;
+    position: absolute;
+}
+.weathar-detail {
+    display: flex;
+    width: 20vw;
+    margin-left: 5rem;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.logo,.code{
+    width: 10vw;
+    min-width: 8vw;
+}
+.weathar-detail .logo img{
+    border-radius: 50%;
+    border: 0.3vw solid #0202028f;
+
+}
+.content{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.wether-icon{
+    width: 3vw;
+    border-radius: 50%;
+    height: 3vw;
+    background-color:#5c5a5a ;
+    margin-bottom: 15px;
+}
+.wather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.time{
+    color: white;
+    margin-left: 5px;
+}
+.time-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8rem;
+    align-items: center;
+}
+.time-date .code img{
+    background-color: white;
+}
+.time-date .clock{
+    display: flex;
+    align-items: center;
+}
+.time-date .clock img{
+    width: 3vw;
+}
+.contect-detail{
+    width: 80%;
+    height: 85%;
+    background-color: rgb(126 126 126 / 37%);
+    position: relative;
+    border-radius: 5px;
+    margin-right: 3rem;
+    color: white;
+}
+.heading{
+    text-align: center;
+    margin: 15px 0;
+}
+.hr{
+    border: 0.5px solid #a39e9e4f;
+    margin: 0 14px;
+}
+.detail{
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.date-time div{
+    display: flex;
+    align-items: center;
+}
+.date-time {
+    display: flex;
+}
+.date img,.time img{
+    width: 3vw;
+}
+.contact .phone,.email,.date-time{
+    margin-bottom: 10px;
+}
+    .mystyle .logo,.mystyle .code{
+        width: 10vh;
+        min-width: 8vh;
+    }
+    .mystyle .date img,.mystyle .time img{
+        width: 3vh;
+    }
+    .mystyle .weathar-detail {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .mystyle .wether-icon {
+        width: 3vh;
+        height: 3vh;
+    }
+    .mystyle *{
+        font-size: 2vh;
+    }
+    .mystyle .content{
+        flex-wrap: wrap;
+    }
+    .mystyle .contect-detail{
+        height: 70vh;
+        width: 100%;
+        margin: auto;
+    }
+/* @media screen and (max-width:560px){
+
+    .logo{
+        max-width: 30%;
+    }
+} */
