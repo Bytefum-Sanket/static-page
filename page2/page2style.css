@@ -21,7 +21,6 @@ img{
     height: 100%;
 }
 .logo{
-
     width: 14vw;
     min-width: 8vw;
 }
@@ -95,7 +94,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px;
+    padding: 2vw;
 }
 .bottom{
     display: flex;
@@ -117,7 +116,8 @@ img{
 }
 
 
-/* log screen css */
+/* long screen css */
+
 .mystyle *{
     font-size: 2vh;
 }
@@ -157,9 +157,6 @@ border: 0.4vh solid #0202028f;
 .mystyle .time-date .clock img{
     width: 3vh;
 }
-/* @media screen and (max-width:560px){
-
-    .logo{
-        max-width: 30%;
-    }
-} */
+.mystyle .detail{
+    padding: 2vh;
+}
