@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bytefum-sanket.github.io/static-page/page2/page2style.css">
+    <!-- <link rel="stylesheet" href="/page2/page2style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Web design</title>
 </head>
@@ -55,21 +56,36 @@
                         </div>
                         <div class="date-time">
                             <div class="date">
-                                <img src="https://bytefum-sanket.github.io/static-page/page2/calendar.png" alt="">
-                                <p> April 14th 2021</p>
-                            </div>
-                            <div class="time">
-                                <img src="https://bytefum-sanket.github.io/static-page/page2/clock.png" alt="">
-                                <p> 4:30 AM</p>
+                                <p> April 14th 2021 , 4:30 AM</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- long screen code -->
+            <div class="long_screen">
+                <div class="long_screen_contect contact">
+                    <p class="phone"><i class='fa fa-phone-square'> +1 (149) 338-4491</i> </p>
+                    <p class="email"><i class="fa fa-globe" aria-hidden="true"> http://somelineforyou.com/</i>
+                    </p>
+                </div>
+                <div class="qr_code time-date">
+                    <div class="code">
+                        <img src="https://pngimg.com/uploads/qr_code/qr_code_PNG25.png" alt="">
+                    </div>
+                    <div class="clock">
+                        <img
+                        src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-clock-contact-flatart-icons-lineal-color-flatarticons.png" />
+                        <p class="time">9:47 AM</p>
+                    </div>
+                </div>
+            </div>
+            <!-- long screen code End -->
         </div>
     </div>
 </body>
 <script>
+    var elements = document.getElementsByClassName("qr_code");
     if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
         myFunction();
     }
@@ -78,6 +94,7 @@
         var element = document.getElementById("demo");
         if (screen.availWidth < screen.availHeight) {
             element.classList.add("mystyle");
+            
         }
         else {
             element.classList.remove("mystyle");

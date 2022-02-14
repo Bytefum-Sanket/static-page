@@ -62,6 +62,10 @@ img{
     height: 8rem;
     align-items: center;
 }
+
+.long_screen{
+    display: none;
+}
 .time-date .code img{
     background-color: white;
 }
@@ -112,21 +116,24 @@ img{
     width: 3vw;
 }
 .contact .phone,.email,.date-time{
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
+
 
 
 /* long screen css */
-
 .mystyle *{
     font-size: 2vh;
 }
-.mystyle .logo,.mystyle .code{
-    width: 10vh;
+.mystyle .content{
+    flex-wrap: wrap;
+}
+.mystyle .logo{
+    width: 18vh;
     min-width: 8vh;
 }
 .mystyle .weathar-detail .logo img{
-border: 0.4vh solid #0202028f;
+    border: 0.4vh solid #0202028f;
 }
 .mystyle .date img,.mystyle .time img{
     width: 3vh;
@@ -136,27 +143,64 @@ border: 0.4vh solid #0202028f;
     height: auto;
     width: 100%;
     margin: auto;
+    justify-content: space-around;
 }
 .mystyle .wether-icon {
     width: 3vh;
     height: 3vh;
     margin-bottom: 1vh;
 }
+.mystyle .time-date{
+    display: none;
+}
 .mystyle .time{
     color: white;
     margin-left: 1vh;
 }
-.mystyle .content{
-    flex-wrap: wrap;
+.mystyle .code{
+    width: 10vh;
+    min-width: 8vh;
 }
+
 .mystyle .contect-detail{
-    height: 70vh;
-    width: 100%;
-    margin: auto;
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
 }
-.mystyle .time-date .clock img{
-    width: 3vh;
+.mystyle .contact{
+    display: none;
 }
 .mystyle .detail{
     padding: 2vh;
 }
+.mystyle .bottom{
+    justify-content: end;
+}
+
+.mystyle .time-date .clock img{
+    width: 3vh;
+}
+
+.mystyle .contact .phone,.mystyle .email,.date-time{
+    margin-bottom: 1rem;
+}
+
+.mystyle .long_screen .long_screen_contect{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: end;
+}
+.mystyle .long_screen{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+}
+.mystyle .long_screen .qr_code{
+    display: flex;
+    position: relative;
+    height: 13rem;
+}
+
+/* long screen code End */
